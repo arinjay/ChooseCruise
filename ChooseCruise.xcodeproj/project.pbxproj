@@ -12,7 +12,33 @@
 		C783D0381E7C60A600F176C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C783D0361E7C60A600F176C9 /* Main.storyboard */; };
 		C783D03A1E7C60A600F176C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C783D0391E7C60A600F176C9 /* Assets.xcassets */; };
 		C783D03D1E7C60A600F176C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C783D03B1E7C60A600F176C9 /* LaunchScreen.storyboard */; };
+		C783D04B1E7C60BB00F176C9 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783D04A1E7C60BB00F176C9 /* IntentHandler.swift */; };
+		C783D04F1E7C60BB00F176C9 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C783D0481E7C60BB00F176C9 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C783D04D1E7C60BB00F176C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C783D0271E7C60A600F176C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C783D0471E7C60BB00F176C9;
+			remoteInfo = Extension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C783D0531E7C60BB00F176C9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C783D04F1E7C60BB00F176C9 /* Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C783D02F1E7C60A600F176C9 /* ChooseCruise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseCruise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +48,20 @@
 		C783D0391E7C60A600F176C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C783D03C1E7C60A600F176C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C783D03E1E7C60A600F176C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C783D0481E7C60BB00F176C9 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C783D04A1E7C60BB00F176C9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		C783D04C1E7C60BB00F176C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C783D02C1E7C60A600F176C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C783D0451E7C60BB00F176C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				C783D0311E7C60A600F176C9 /* ChooseCruise */,
+				C783D0491E7C60BB00F176C9 /* Extension */,
 				C783D0301E7C60A600F176C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				C783D02F1E7C60A600F176C9 /* ChooseCruise.app */,
+				C783D0481E7C60BB00F176C9 /* Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +102,15 @@
 			path = ChooseCruise;
 			sourceTree = "<group>";
 		};
+		C783D0491E7C60BB00F176C9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C783D04A1E7C60BB00F176C9 /* IntentHandler.swift */,
+				C783D04C1E7C60BB00F176C9 /* Info.plist */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,15 +121,34 @@
 				C783D02B1E7C60A600F176C9 /* Sources */,
 				C783D02C1E7C60A600F176C9 /* Frameworks */,
 				C783D02D1E7C60A600F176C9 /* Resources */,
+				C783D0531E7C60BB00F176C9 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C783D04E1E7C60BB00F176C9 /* PBXTargetDependency */,
 			);
 			name = ChooseCruise;
 			productName = ChooseCruise;
 			productReference = C783D02F1E7C60A600F176C9 /* ChooseCruise.app */;
 			productType = "com.apple.product-type.application";
+		};
+		C783D0471E7C60BB00F176C9 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C783D0501E7C60BB00F176C9 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				C783D0441E7C60BB00F176C9 /* Sources */,
+				C783D0451E7C60BB00F176C9 /* Frameworks */,
+				C783D0461E7C60BB00F176C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = C783D0481E7C60BB00F176C9 /* Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +161,10 @@
 				ORGANIZATIONNAME = "Arinjay Sharma";
 				TargetAttributes = {
 					C783D02E1E7C60A600F176C9 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					C783D0471E7C60BB00F176C9 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,6 +184,7 @@
 			projectRoot = "";
 			targets = (
 				C783D02E1E7C60A600F176C9 /* ChooseCruise */,
+				C783D0471E7C60BB00F176C9 /* Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +200,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C783D0461E7C60BB00F176C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,7 +219,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C783D0441E7C60BB00F176C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C783D04B1E7C60BB00F176C9 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C783D04E1E7C60BB00F176C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C783D0471E7C60BB00F176C9 /* Extension */;
+			targetProxy = C783D04D1E7C60BB00F176C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C783D0361E7C60A600F176C9 /* Main.storyboard */ = {
@@ -257,6 +351,7 @@
 		C783D0421E7C60A600F176C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChooseCruise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -269,12 +364,39 @@
 		C783D0431E7C60A600F176C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ChooseCruise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.ChooseCruise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C783D0511E7C60BB00F176C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.ChooseCruise.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C783D0521E7C60BB00F176C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.ChooseCruise.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -295,6 +417,14 @@
 			buildConfigurations = (
 				C783D0421E7C60A600F176C9 /* Debug */,
 				C783D0431E7C60A600F176C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C783D0501E7C60BB00F176C9 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C783D0511E7C60BB00F176C9 /* Debug */,
+				C783D0521E7C60BB00F176C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
