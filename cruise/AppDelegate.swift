@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ChooseCruise
+//  cruise
 //
-//  Created by Arinjay Sharma on 3/17/17.
+//  Created by Arinjay Sharma on 3/18/17.
 //  Copyright © 2017 Arinjay Sharma. All rights reserved.
 //
 

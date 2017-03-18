@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C783D0331E7C60A600F176C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783D0321E7C60A600F176C9 /* AppDelegate.swift */; };
-		C783D0351E7C60A600F176C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783D0341E7C60A600F176C9 /* ViewController.swift */; };
-		C783D0381E7C60A600F176C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C783D0361E7C60A600F176C9 /* Main.storyboard */; };
-		C783D03A1E7C60A600F176C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C783D0391E7C60A600F176C9 /* Assets.xcassets */; };
-		C783D03D1E7C60A600F176C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C783D03B1E7C60A600F176C9 /* LaunchScreen.storyboard */; };
-		C783D04B1E7C60BB00F176C9 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783D04A1E7C60BB00F176C9 /* IntentHandler.swift */; };
-		C783D04F1E7C60BB00F176C9 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C783D0481E7C60BB00F176C9 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C773F4991E7D477B005B8E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773F4981E7D477B005B8E0A /* AppDelegate.swift */; };
+		C773F49B1E7D477B005B8E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773F49A1E7D477B005B8E0A /* ViewController.swift */; };
+		C773F49E1E7D477B005B8E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C773F49C1E7D477B005B8E0A /* Main.storyboard */; };
+		C773F4A01E7D477B005B8E0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C773F49F1E7D477B005B8E0A /* Assets.xcassets */; };
+		C773F4A31E7D477B005B8E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C773F4A11E7D477B005B8E0A /* LaunchScreen.storyboard */; };
+		C773F4B11E7D4798005B8E0A /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773F4B01E7D4798005B8E0A /* IntentHandler.swift */; };
+		C773F4B51E7D4798005B8E0A /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C773F4AE1E7D4798005B8E0A /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C783D04D1E7C60BB00F176C9 /* PBXContainerItemProxy */ = {
+		C773F4B31E7D4798005B8E0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C783D0271E7C60A600F176C9 /* Project object */;
+			containerPortal = C773F48D1E7D477B005B8E0A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C783D0471E7C60BB00F176C9;
+			remoteGlobalIDString = C773F4AD1E7D4798005B8E0A;
 			remoteInfo = Extension;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C783D0531E7C60BB00F176C9 /* Embed App Extensions */ = {
+		C773F4B91E7D4798005B8E0A /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				C783D04F1E7C60BB00F176C9 /* Extension.appex in Embed App Extensions */,
+				C773F4B51E7D4798005B8E0A /* Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,27 +41,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C783D02F1E7C60A600F176C9 /* ChooseCruise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChooseCruise.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C783D0321E7C60A600F176C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C783D0341E7C60A600F176C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C783D0371E7C60A600F176C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C783D0391E7C60A600F176C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C783D03C1E7C60A600F176C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C783D03E1E7C60A600F176C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C783D0481E7C60BB00F176C9 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		C783D04A1E7C60BB00F176C9 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
-		C783D04C1E7C60BB00F176C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C773F4951E7D477B005B8E0A /* cruise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cruise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C773F4981E7D477B005B8E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C773F49A1E7D477B005B8E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C773F49D1E7D477B005B8E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C773F49F1E7D477B005B8E0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C773F4A21E7D477B005B8E0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C773F4A41E7D477B005B8E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C773F4AE1E7D4798005B8E0A /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C773F4B01E7D4798005B8E0A /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		C773F4B21E7D4798005B8E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C783D02C1E7C60A600F176C9 /* Frameworks */ = {
+		C773F4921E7D477B005B8E0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C783D0451E7C60BB00F176C9 /* Frameworks */ = {
+		C773F4AB1E7D4798005B8E0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,42 +71,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C783D0261E7C60A600F176C9 = {
+		C773F48C1E7D477B005B8E0A = {
 			isa = PBXGroup;
 			children = (
-				C783D0311E7C60A600F176C9 /* ChooseCruise */,
-				C783D0491E7C60BB00F176C9 /* Extension */,
-				C783D0301E7C60A600F176C9 /* Products */,
+				C773F4971E7D477B005B8E0A /* cruise */,
+				C773F4AF1E7D4798005B8E0A /* Extension */,
+				C773F4961E7D477B005B8E0A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C783D0301E7C60A600F176C9 /* Products */ = {
+		C773F4961E7D477B005B8E0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C783D02F1E7C60A600F176C9 /* ChooseCruise.app */,
-				C783D0481E7C60BB00F176C9 /* Extension.appex */,
+				C773F4951E7D477B005B8E0A /* cruise.app */,
+				C773F4AE1E7D4798005B8E0A /* Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C783D0311E7C60A600F176C9 /* ChooseCruise */ = {
+		C773F4971E7D477B005B8E0A /* cruise */ = {
 			isa = PBXGroup;
 			children = (
-				C783D0321E7C60A600F176C9 /* AppDelegate.swift */,
-				C783D0341E7C60A600F176C9 /* ViewController.swift */,
-				C783D0361E7C60A600F176C9 /* Main.storyboard */,
-				C783D0391E7C60A600F176C9 /* Assets.xcassets */,
-				C783D03B1E7C60A600F176C9 /* LaunchScreen.storyboard */,
-				C783D03E1E7C60A600F176C9 /* Info.plist */,
+				C773F4981E7D477B005B8E0A /* AppDelegate.swift */,
+				C773F49A1E7D477B005B8E0A /* ViewController.swift */,
+				C773F49C1E7D477B005B8E0A /* Main.storyboard */,
+				C773F49F1E7D477B005B8E0A /* Assets.xcassets */,
+				C773F4A11E7D477B005B8E0A /* LaunchScreen.storyboard */,
+				C773F4A41E7D477B005B8E0A /* Info.plist */,
 			);
-			path = ChooseCruise;
+			path = cruise;
 			sourceTree = "<group>";
 		};
-		C783D0491E7C60BB00F176C9 /* Extension */ = {
+		C773F4AF1E7D4798005B8E0A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C783D04A1E7C60BB00F176C9 /* IntentHandler.swift */,
-				C783D04C1E7C60BB00F176C9 /* Info.plist */,
+				C773F4B01E7D4798005B8E0A /* IntentHandler.swift */,
+				C773F4B21E7D4798005B8E0A /* Info.plist */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -114,32 +114,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C783D02E1E7C60A600F176C9 /* ChooseCruise */ = {
+		C773F4941E7D477B005B8E0A /* cruise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C783D0411E7C60A600F176C9 /* Build configuration list for PBXNativeTarget "ChooseCruise" */;
+			buildConfigurationList = C773F4A71E7D477B005B8E0A /* Build configuration list for PBXNativeTarget "cruise" */;
 			buildPhases = (
-				C783D02B1E7C60A600F176C9 /* Sources */,
-				C783D02C1E7C60A600F176C9 /* Frameworks */,
-				C783D02D1E7C60A600F176C9 /* Resources */,
-				C783D0531E7C60BB00F176C9 /* Embed App Extensions */,
+				C773F4911E7D477B005B8E0A /* Sources */,
+				C773F4921E7D477B005B8E0A /* Frameworks */,
+				C773F4931E7D477B005B8E0A /* Resources */,
+				C773F4B91E7D4798005B8E0A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C783D04E1E7C60BB00F176C9 /* PBXTargetDependency */,
+				C773F4B41E7D4798005B8E0A /* PBXTargetDependency */,
 			);
-			name = ChooseCruise;
-			productName = ChooseCruise;
-			productReference = C783D02F1E7C60A600F176C9 /* ChooseCruise.app */;
+			name = cruise;
+			productName = cruise;
+			productReference = C773F4951E7D477B005B8E0A /* cruise.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C783D0471E7C60BB00F176C9 /* Extension */ = {
+		C773F4AD1E7D4798005B8E0A /* Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C783D0501E7C60BB00F176C9 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildConfigurationList = C773F4B61E7D4798005B8E0A /* Build configuration list for PBXNativeTarget "Extension" */;
 			buildPhases = (
-				C783D0441E7C60BB00F176C9 /* Sources */,
-				C783D0451E7C60BB00F176C9 /* Frameworks */,
-				C783D0461E7C60BB00F176C9 /* Resources */,
+				C773F4AA1E7D4798005B8E0A /* Sources */,
+				C773F4AB1E7D4798005B8E0A /* Frameworks */,
+				C773F4AC1E7D4798005B8E0A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,30 +147,30 @@
 			);
 			name = Extension;
 			productName = Extension;
-			productReference = C783D0481E7C60BB00F176C9 /* Extension.appex */;
+			productReference = C773F4AE1E7D4798005B8E0A /* Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C783D0271E7C60A600F176C9 /* Project object */ = {
+		C773F48D1E7D477B005B8E0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Arinjay Sharma";
 				TargetAttributes = {
-					C783D02E1E7C60A600F176C9 = {
+					C773F4941E7D477B005B8E0A = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
-					C783D0471E7C60BB00F176C9 = {
+					C773F4AD1E7D4798005B8E0A = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C783D02A1E7C60A600F176C9 /* Build configuration list for PBXProject "ChooseCruise" */;
+			buildConfigurationList = C773F4901E7D477B005B8E0A /* Build configuration list for PBXProject "cruise" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,29 +178,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C783D0261E7C60A600F176C9;
-			productRefGroup = C783D0301E7C60A600F176C9 /* Products */;
+			mainGroup = C773F48C1E7D477B005B8E0A;
+			productRefGroup = C773F4961E7D477B005B8E0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C783D02E1E7C60A600F176C9 /* ChooseCruise */,
-				C783D0471E7C60BB00F176C9 /* Extension */,
+				C773F4941E7D477B005B8E0A /* cruise */,
+				C773F4AD1E7D4798005B8E0A /* Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C783D02D1E7C60A600F176C9 /* Resources */ = {
+		C773F4931E7D477B005B8E0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C783D03D1E7C60A600F176C9 /* LaunchScreen.storyboard in Resources */,
-				C783D03A1E7C60A600F176C9 /* Assets.xcassets in Resources */,
-				C783D0381E7C60A600F176C9 /* Main.storyboard in Resources */,
+				C773F4A31E7D477B005B8E0A /* LaunchScreen.storyboard in Resources */,
+				C773F4A01E7D477B005B8E0A /* Assets.xcassets in Resources */,
+				C773F49E1E7D477B005B8E0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C783D0461E7C60BB00F176C9 /* Resources */ = {
+		C773F4AC1E7D4798005B8E0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,46 +210,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C783D02B1E7C60A600F176C9 /* Sources */ = {
+		C773F4911E7D477B005B8E0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C783D0351E7C60A600F176C9 /* ViewController.swift in Sources */,
-				C783D0331E7C60A600F176C9 /* AppDelegate.swift in Sources */,
+				C773F49B1E7D477B005B8E0A /* ViewController.swift in Sources */,
+				C773F4991E7D477B005B8E0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C783D0441E7C60BB00F176C9 /* Sources */ = {
+		C773F4AA1E7D4798005B8E0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C783D04B1E7C60BB00F176C9 /* IntentHandler.swift in Sources */,
+				C773F4B11E7D4798005B8E0A /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C783D04E1E7C60BB00F176C9 /* PBXTargetDependency */ = {
+		C773F4B41E7D4798005B8E0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C783D0471E7C60BB00F176C9 /* Extension */;
-			targetProxy = C783D04D1E7C60BB00F176C9 /* PBXContainerItemProxy */;
+			target = C773F4AD1E7D4798005B8E0A /* Extension */;
+			targetProxy = C773F4B31E7D4798005B8E0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C783D0361E7C60A600F176C9 /* Main.storyboard */ = {
+		C773F49C1E7D477B005B8E0A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C783D0371E7C60A600F176C9 /* Base */,
+				C773F49D1E7D477B005B8E0A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C783D03B1E7C60A600F176C9 /* LaunchScreen.storyboard */ = {
+		C773F4A11E7D477B005B8E0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C783D03C1E7C60A600F176C9 /* Base */,
+				C773F4A21E7D477B005B8E0A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -257,7 +257,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C783D03F1E7C60A600F176C9 /* Debug */ = {
+		C773F4A51E7D477B005B8E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,7 +306,7 @@
 			};
 			name = Debug;
 		};
-		C783D0401E7C60A600F176C9 /* Release */ = {
+		C773F4A61E7D477B005B8E0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,87 +348,85 @@
 			};
 			name = Release;
 		};
-		C783D0421E7C60A600F176C9 /* Debug */ = {
+		C773F4A81E7D477B005B8E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ChooseCruise/Info.plist;
+				INFOPLIST_FILE = cruise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.ChooseCruise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.cruise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		C783D0431E7C60A600F176C9 /* Release */ = {
+		C773F4A91E7D477B005B8E0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ChooseCruise/Info.plist;
+				INFOPLIST_FILE = cruise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.ChooseCruise;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.cruise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		C783D0511E7C60BB00F176C9 /* Debug */ = {
+		C773F4B71E7D4798005B8E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.ChooseCruise.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.cruise.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		C783D0521E7C60BB00F176C9 /* Release */ = {
+		C773F4B81E7D4798005B8E0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = Extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.ChooseCruise.Extension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arinjay.cruise.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C783D02A1E7C60A600F176C9 /* Build configuration list for PBXProject "ChooseCruise" */ = {
+		C773F4901E7D477B005B8E0A /* Build configuration list for PBXProject "cruise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C783D03F1E7C60A600F176C9 /* Debug */,
-				C783D0401E7C60A600F176C9 /* Release */,
+				C773F4A51E7D477B005B8E0A /* Debug */,
+				C773F4A61E7D477B005B8E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C783D0411E7C60A600F176C9 /* Build configuration list for PBXNativeTarget "ChooseCruise" */ = {
+		C773F4A71E7D477B005B8E0A /* Build configuration list for PBXNativeTarget "cruise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C783D0421E7C60A600F176C9 /* Debug */,
-				C783D0431E7C60A600F176C9 /* Release */,
+				C773F4A81E7D477B005B8E0A /* Debug */,
+				C773F4A91E7D477B005B8E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C783D0501E7C60BB00F176C9 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+		C773F4B61E7D4798005B8E0A /* Build configuration list for PBXNativeTarget "Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C783D0511E7C60BB00F176C9 /* Debug */,
-				C783D0521E7C60BB00F176C9 /* Release */,
+				C773F4B71E7D4798005B8E0A /* Debug */,
+				C773F4B81E7D4798005B8E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C783D0271E7C60A600F176C9 /* Project object */;
+	rootObject = C773F48D1E7D477B005B8E0A /* Project object */;
 }

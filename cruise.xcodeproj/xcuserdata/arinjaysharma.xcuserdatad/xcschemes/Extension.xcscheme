@@ -15,10 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C783D0471E7C60BB00F176C9"
+               BlueprintIdentifier = "C773F4AD1E7D4798005B8E0A"
                BuildableName = "Extension.appex"
                BlueprintName = "Extension"
-               ReferencedContainer = "container:ChooseCruise.xcodeproj">
+               ReferencedContainer = "container:cruise.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,10 +29,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C783D02E1E7C60A600F176C9"
-               BuildableName = "ChooseCruise.app"
-               BlueprintName = "ChooseCruise"
-               ReferencedContainer = "container:ChooseCruise.xcodeproj">
+               BlueprintIdentifier = "C773F4941E7D477B005B8E0A"
+               BuildableName = "cruise.app"
+               BlueprintName = "cruise"
+               ReferencedContainer = "container:cruise.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,10 +47,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C783D0471E7C60BB00F176C9"
+            BlueprintIdentifier = "C773F4AD1E7D4798005B8E0A"
             BuildableName = "Extension.appex"
             BlueprintName = "Extension"
-            ReferencedContainer = "container:ChooseCruise.xcodeproj">
+            ReferencedContainer = "container:cruise.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -71,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C783D02E1E7C60A600F176C9"
-            BuildableName = "ChooseCruise.app"
-            BlueprintName = "ChooseCruise"
-            ReferencedContainer = "container:ChooseCruise.xcodeproj">
+            BlueprintIdentifier = "C773F4941E7D477B005B8E0A"
+            BuildableName = "cruise.app"
+            BlueprintName = "cruise"
+            ReferencedContainer = "container:cruise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -91,10 +91,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C783D02E1E7C60A600F176C9"
-            BuildableName = "ChooseCruise.app"
-            BlueprintName = "ChooseCruise"
-            ReferencedContainer = "container:ChooseCruise.xcodeproj">
+            BlueprintIdentifier = "C773F4941E7D477B005B8E0A"
+            BuildableName = "cruise.app"
+            BlueprintName = "cruise"
+            ReferencedContainer = "container:cruise.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
