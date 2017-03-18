@@ -14,6 +14,9 @@
 		C773F4A31E7D477B005B8E0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C773F4A11E7D477B005B8E0A /* LaunchScreen.storyboard */; };
 		C773F4B11E7D4798005B8E0A /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C773F4B01E7D4798005B8E0A /* IntentHandler.swift */; };
 		C773F4B51E7D4798005B8E0A /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C773F4AE1E7D4798005B8E0A /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C773F4BD1E7DC92F005B8E0A /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = C773F4BA1E7DC92F005B8E0A /* car.png */; };
+		C773F4BE1E7DC92F005B8E0A /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C773F4BB1E7DC92F005B8E0A /* car@2x.png */; };
+		C773F4BF1E7DC92F005B8E0A /* car@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C773F4BC1E7DC92F005B8E0A /* car@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		C773F4AE1E7D4798005B8E0A /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C773F4B01E7D4798005B8E0A /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		C773F4B21E7D4798005B8E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C773F4BA1E7DC92F005B8E0A /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		C773F4BB1E7DC92F005B8E0A /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@2x.png"; sourceTree = "<group>"; };
+		C773F4BC1E7DC92F005B8E0A /* car@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				C773F49F1E7D477B005B8E0A /* Assets.xcassets */,
 				C773F4A11E7D477B005B8E0A /* LaunchScreen.storyboard */,
 				C773F4A41E7D477B005B8E0A /* Info.plist */,
+				C773F4BA1E7DC92F005B8E0A /* car.png */,
+				C773F4BB1E7DC92F005B8E0A /* car@2x.png */,
+				C773F4BC1E7DC92F005B8E0A /* car@3x.png */,
 			);
 			path = cruise;
 			sourceTree = "<group>";
@@ -194,8 +203,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C773F4BD1E7DC92F005B8E0A /* car.png in Resources */,
 				C773F4A31E7D477B005B8E0A /* LaunchScreen.storyboard in Resources */,
 				C773F4A01E7D477B005B8E0A /* Assets.xcassets in Resources */,
+				C773F4BE1E7DC92F005B8E0A /* car@2x.png in Resources */,
+				C773F4BF1E7DC92F005B8E0A /* car@3x.png in Resources */,
 				C773F49E1E7D477B005B8E0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +429,7 @@
 				C773F4A91E7D477B005B8E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C773F4B61E7D4798005B8E0A /* Build configuration list for PBXNativeTarget "Extension" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +438,7 @@
 				C773F4B81E7D4798005B8E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
